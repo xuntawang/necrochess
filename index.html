@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necro Chess - A Dark Strategy Game of Undead Warfare</title>
+    <meta name="description" content="Play Necro Chess online - A unique chess variant where you command an army of undead warriors in a dark fantasy setting. Challenge your strategic thinking in this gothic-themed chess game.">
+    <link rel="canonical" href="https://necrochess.com" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eldritch': {
+                            100: '#2a2a2a',
+                            200: '#1a1a1a',
+                            300: '#0a0a0a',
+                        },
+                        'necromancer': {
+                            100: '#8b0000',
+                            200: '#4a0000',
+                        },
+                        'pink': {
+                            100: '#FF69B4',
+                            200: '#FF1493',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-eldritch-200 text-gray-200 min-h-screen">
+    <!-- Header Image Section -->
+    <div class="w-full h-[300px] md:h-[400px] relative overflow-hidden">
+        <img src="images/necrochess1_cleanup.png" 
+             alt="Necro Chess game header image" 
+             class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-eldritch-200"></div>
+    </div>
+
+    <header class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl md:text-6xl font-bold text-center mb-4 text-pink-100">Necro Chess</h1>
+        <p class="text-xl text-center mb-8 text-gray-400">Command the undead in this dark fantasy chess variant where death is just the beginning.</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <div class="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto">
+                <iframe src="https://itch.io/embed/1958809" 
+                        class="w-full h-[600px] border-2 border-necromancer-200 rounded-lg shadow-lg"
+                        frameborder="0">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto space-y-8">
+            <div class="bg-eldritch-100 p-6 rounded-lg shadow-xl">
+                <h2 class="text-2xl font-bold mb-4 text-pink-100">Game Overview</h2>
+                <div class="space-y-4">
+                    <p class="text-gray-300 leading-relaxed">
+                        After struggling to live with no job, a girl becomes a necromancer and tries to overthrow the King.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        In this unique chess variant, you'll command an army of undead warriors in a dark fantasy setting. 
+                        Combine classic chess strategy with necromantic powers as you battle for supremacy in a gothic-themed battlefield.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-eldritch-100 p-6 rounded-lg shadow-xl">
+                <h2 class="text-2xl font-bold mb-4 text-pink-100">Key Features</h2>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Unique undead-themed chess pieces</li>
+                    <li>Dark fantasy atmosphere</li>
+                    <li>Strategic gameplay mechanics</li>
+                    <li>Cross-platform compatibility</li>
+                </ul>
+            </div>
+
+            <div class="bg-eldritch-100 p-6 rounded-lg shadow-xl">
+                <h2 class="text-2xl font-bold mb-4 text-pink-100">How to Play</h2>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Though the game is designed to be played entirely with a mouse, here are the keyboard controls:
+                </p>
+                <ul class="text-gray-300 space-y-2 mb-6">
+                    <li class="flex items-center">
+                        <span class="font-bold text-pink-100 w-24">R</span>
+                        <span>Roll</span>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="font-bold text-pink-100 w-24">SPACEBAR</span>
+                        <span>Attack / Pause Battle</span>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="font-bold text-pink-100 w-24">S</span>
+                        <span>Sell chosen thing (or click and hold)</span>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="font-bold text-pink-100 w-24">F</span>
+                        <span>Go to fullscreen (only on downloaded version)</span>
+                    </li>
+                </ul>
+                <p class="text-gray-300 leading-relaxed mt-4 mb-6">
+                    <span class="font-bold text-pink-100">Pro Tip:</span> You can also FREEZE something by clicking on it twice!
+                </p>
+
+                <div class="border-t border-gray-700 pt-6">
+                    <h3 class="text-xl font-bold mb-4 text-pink-100">Important Notes:</h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-pink-100 mr-2">•</span>
+                            <span>Books need to be at the right of the lane to be able to be used.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-pink-100 mr-2">•</span>
+                            <span>Merging units is important!</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-pink-100 mr-2">•</span>
+                            <span>The king gets slowly stronger, so try to rush him or go slow and become strong enough!</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container mx-auto px-4 py-8 text-center text-gray-400">
+        <p>&copy; 2024 Necro Chess. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
